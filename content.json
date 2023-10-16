@@ -1,0 +1,33 @@
+
+{"intents":
+    [
+        {
+
+            "tag": "greeting",
+
+            "input": [ "hello",",hi is this is the pirate's organization","good morning", "How are you?" ,"What about you ?"] ,
+
+            "responses": ["Hi. Welcome to the world's largest pirate organization - The Strawhats","Hey yo, do you need help ?","welcome aboard, how may I help you ?","ahoy!","Hi random person, what do'ya want ?","Hello my friend, How can I help you ?","Ha , Glad you showed up. How are you ?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "input": ["Thank you","Thanks", "Thanks for the info", "bye" , "It was nice meeting you", "See You", "Meet   You  later ", "See you soon"] ,
+            "responses": ["Okay, Bye","Have a nice day","Adios","Goodbye","see you later","nice conversation. bye","okay. Have a nice day","Take care","bye bro!","adios", "okay"]
+        },
+        {
+            "tag": "whereisthecenter",
+            "input": ["where is the straw hat center located ?","location of the straw hat center?"],
+            "responses": ["That's up to you. use your skills",
+            "They are present all over the city you live in. Find them on your own. I can't give",
+            "there are a lot of straw hat centers in the city you are in. find them."]
+        },
+        {
+            "tag": "prerequisites",
+            "input": ["what are the job requirements 2", "what are the pre requisites ?"],
+            "responses": [
+            "you gotta master the art of swordfight or master Cooking and become a furious cook",
+            "swordsman" , "a medical reindeer", "taekwando Cook", "master navigator."]
+        }
+    ]
+}
